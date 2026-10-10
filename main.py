@@ -7,7 +7,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 # 2. Указываем URL вашего видеопотока
-video_url = "http://192.168.96.77:8080/video"
+video_url = "http://10.174.180.51:8080/video"
 
 # 3. Открываем видеопоток через OpenCV
 cap = cv2.VideoCapture(video_url)
